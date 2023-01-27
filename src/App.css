@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Tourney:wght@900&display=swap");
+body {
+  background: linear-gradient(45deg, #00b4db, #0083b0);
+  background-repeat: no-repeat;
+}
+button {
+  border-radius: 0px;
+  border: none;
+  background-color: rgb(183, 183, 183);
+  padding: 13px;
+  float: inline-start;
+}
+button:hover {
+  transition: 200ms;
+  transform: scale(1.1);
+}
+button:focus {
+  outline: none;
+}
+
+.loader {
+  margin: 0 auto;
+}
+.avatar {
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+#main {
+  /* padding: 15px 50px; */
+  margin: 0 auto;
+  display: none;
+}
+#main img {
+  animation-delay: 5s;
+}
+.profile {
+  max-width: 300px;
+  margin: 15px auto;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(-45deg, #bdc3c7, #2c3e50);
+}
+.profile:hover {
+  transition: 500ms;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.6);
+}
+.name {
+  font-family: "Libre Baskerville", serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.email {
+  font-family: "Tourney", cursive;
+  font-size: 18px;
+  overflow-wrap: break-word;
+}
